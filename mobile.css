@@ -1,0 +1,435 @@
+@media only screen and (max-width: 600px) {
+    /* General body and layout adjustments */
+   	.content-container{
+		width: 100%;
+		height: auto;
+		
+	}
+	.content-header{
+		width: 100%;
+		height: 80px;
+		background:linear-gradient(to right, #38097a, #745ebf, #410d94);
+		display: flex;
+		position: fixed;
+		z-index: 1;
+		justify-content: space-between;
+		padding: 0px 30px;
+		top: 0px;
+	}
+	.content-header ul{
+		margin: 0px 0px;
+		padding: 0px;
+		width: 10%;
+	}
+	.content-header li{
+		display: inline-block;
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+		position: relative;
+		top: -25px;
+		width: 30px;
+	}
+	.content-header h4{
+		margin: 0px;
+		padding: 0px;
+		width: 100px;
+	}
+	.header-left{
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+	.header-left .imgs{
+		width: 150px;
+		height: 50px;
+		position: relative;
+		top: 40px;
+	}
+	.header-right{
+		width: 50%;
+		height: 100%;
+		text-align: center;
+		float: left;
+	}
+	.header-right a{
+		text-decoration: none;
+		color: #fff;
+		padding: 10px 15px;
+		border: 4px solid #c9ab00;
+		border-radius: 10px;
+		position: relative;
+		top: 17px;
+		font-size: 12px;
+		box-shadow: 1px 1px 2px #000;
+	}
+	.content{
+		margin-top: 80px;
+		width: 100%;
+		height: 600px;
+		background-image: url('investbg.jpg'); /* Replace with your image URL */
+		background-size: cover; /* Ensures the image covers the entire div */
+		background-position: center; /* Centers the image */
+		background-repeat: no-repeat; /* Prevents tiling */ 
+	}
+	.content-opacity{
+		height: 100%;
+		width: 100%;
+		background: linear-gradient(to right, rgba(56, 9, 122, 0.8), rgba(116, 94, 191, 0.8), rgba(65, 13, 148, 0.8));
+	}
+	.container{
+		width: 70%;
+		height: 100%;
+		position: relative;
+		padding: 0px 20px;
+	}
+	.container .image{
+		width: 120px;
+		height: 120px;
+		position: relative;
+		top: 40px;
+	}
+	.invest h1{
+		margin: 0px;
+		padding: 0px;
+		position: relative;
+		color: #fff;
+		font-size: 25px;
+		top: -50px;
+		left: 200px;
+		text-shadow: 1px 1px 2px #000;
+	}
+	.text h1{
+		margin: 0px;
+		padding: 0px;
+		position: relative;
+		color: #fff;
+		font-size: 35px;
+		text-align: center;
+		top: -30px;
+		left: 100px;
+		text-shadow: 1px 1px 2px #000;
+	}
+	.container button{
+		padding: 10px 40px;
+		background: transparent;
+		border: 3px solid #c9ab00;
+		color: #ffdc42;
+		font-size: 20px;
+		position: relative;
+		left: 140px;
+		top: 50px;
+		cursor: pointer;
+	}
+	
+	.three img{
+		position: relative;
+		top:200px;
+		left: 0px;
+		width: 400px;
+		height: 160px;
+	}
+	
+ /* Popup background overlay */
+	.popup-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+		display: none;
+		align-items: center;
+		justify-content: center;
+		z-index: 1;
+	}
+
+	/* Popup container */
+	.popup-content {
+		background: white;
+		padding: 20px;
+		border-radius: 8px;
+		width: 360px;
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+		position: relative;
+		text-align: center;
+		z-index: 1;
+	}
+
+	/* Close button */
+	.close-popup {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		font-size: 20px;
+		border: none;
+		background-color: #fff;
+		width: 50px;
+		text-align:right;
+	}
+
+	/* Form inputs */
+	.popup-content input, .popup-content textarea {
+		width: 90%;
+		height: 40px;
+		border: none;
+		margin: 15px 0px;
+		outline: none;
+		border-radius: 20px;
+		box-shadow: 1px 1px 3px #d1d1d1;
+		padding: 10px 20px;
+		resize: none;
+	
+	}
+
+	/* Submit button */
+	.popup-content .button {
+		width: 100%;
+		padding: 10px;
+		color: white;
+		border: none;
+		cursor: pointer;
+		font-size: 16px;
+		border-radius: 5px;
+		background:linear-gradient(to right, #745ebf, #410d94);
+	}
+	.problems-container{
+		width: 93%;
+		height: 1300px;
+		padding: 100px 20px;
+		text-align: center;
+	}
+	.problems-h1 {
+		padding: 0px;
+		font-size: 35px;
+		color: #38097a;
+		text-align: center;
+		margin-bottom:25px;
+	}
+	.problems{
+		width: 100%;
+		height: 650px;
+		margin: 5px 0px;
+		display: block;
+	}
+	.problems-row{
+		width: 45%;
+		height: 290px;
+		margin: 0px 10px;
+		float: left;
+	}
+	.problems-row h1{
+		font-size: 20px;
+	}
+	.problems-row p{
+		height: 80px;
+	}
+	.link-a{
+		padding: 10px 20px;
+		text-decoration: none;
+		margin: 10px 0px;
+		color: #fff;
+		background:linear-gradient(to right, #745ebf, #410d94);
+		position: relative;
+		top: 30px;
+	}
+	.contact{
+		width: 90%;
+		height: 1450px;
+		padding: 150px 20px;
+	}
+	.contact-container{
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+	.testimonials{
+		width:100%;
+		height: 50%;
+		border-radius: 0px;
+		box-shadow: 1px 1px 3px #f1f1f1;
+		border-radius: 30px;
+		text-align: center;
+		margin-bottom: 70px;
+	}
+	.testimonial{
+		width: 38%;
+		height: 240px;
+		background-color: #f1f1f1;
+		gap: ;
+		padding: 15px;
+		float: left;
+		margin: 20px 15px;
+		clip-path: polygon(24% 4%, 77% 0, 89% 54%, 69% 96%, 20% 100%, 6% 50%);
+		text-align: center;
+		
+	
+	}
+	.testimonial p{
+		font-size: 12px;
+		margin: 25px 25%;
+		width: 50%;
+		text-align: center;
+	}
+	.contact-form{
+		width: 90%;
+		height: 40%;
+		box-shadow: 1px 1px 10px #d9d9d9;
+		border-radius: 40px;
+		padding: 10px 30px;
+	}
+	
+	.contact-form h2{
+		font-size: 15px;
+	}
+	.contact-form input[type=text], input[type=email]{
+		width: 90%;
+		height: 40px;
+		border: none;
+		margin: 15px 0px;
+		outline: none;
+		border-radius: 20px;
+		box-shadow: 1px 1px 3px #d1d1d1;
+		padding: 10px 20px;
+	}
+	.contact-form label {
+		  left: 10px;
+		  top: 50%;
+		  padding: 20px;
+		  margin: 20px 0px;
+		  transform: translateY(-50%);
+		  font-size: 13px;
+		  color: #aaa;
+		  transition: all 0.3s ease-in-out;
+		  pointer-events: none;
+	}
+	.contact-form textarea{
+		 width: 90%;
+		  height: 120px;
+		  padding: 10px 20px;
+		  font-size: 14px;
+		  border: none;
+		  border-radius: 20px;
+		  resize: none;
+		box-shadow: 1px 1px 3px #d9d9d9;
+		margin: 15px 0px;
+	}
+	.contact-form button{
+		padding: 15px 20px;
+		border: none;
+		background:linear-gradient(to right, #745ebf, #410d94);
+		color: #fff;
+		font-size: 15px;
+		border-radius: 10px;
+		text-shadow: 1px 1px 3px #000;
+		margin: 15px 0px;
+	}
+	
+	
+	.app-download{
+		height: 370px;
+		width: 86.8.5%;
+		padding: 50px 0px;
+		background:linear-gradient(to right,#800471, #7509b8, #410d94);
+	}
+	.app-download-sub{
+		width: 100%;
+		height: 100%;
+		display: flex;
+	}
+	.app-download-sub img{
+		width: 75%;
+		height: 330px;
+		margin: 20px 10%;
+	}
+	.app-left{
+		width: 50%;
+		height: 100%;
+	}
+	.app-right{
+		width: 50%;
+		height: 90%;
+		padding: 0px 0px;
+	}	
+	.app-right h1{
+		font-size: 20px;
+		width: 250px;
+		color:#fcbb23;
+		text-shadow: 1px 1px 15px #6b6b6a;
+		margin-top: 30px;
+	}
+	.app-right p{
+		width: 250px;
+		
+		color: #fff;
+		text-shadow: 1px 1px 15px #6b6b6a;
+		margin: 0px;
+		height: 130px;
+		font-size: 15px;
+	}
+	.app-right ul{
+		margin: 0px;
+		padding: 0px;
+		margin-left: -20px;
+	}
+	.app-right li{
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		width: 120px;
+		display: inline-block;
+	}
+	.app-right img{
+		width: 120px;
+		height: 40px;
+		border-radius: 10px;
+		float: left;
+	}
+	.footer-container{
+		width: 93%;
+		height: 450px;
+		background-color: #403c3c;
+		padding: 0px 20px;
+	}
+	.footer{
+		width: 100%;
+		display: block;
+		height: 100%;
+	}
+	.footer-left{
+		width: 50%;
+		height: 40%;
+		display: flex;
+	}
+	.footer-left ul{
+		margin-left: 0px;
+		padding: 65px 0px;
+		
+	}
+	.footer-left li{
+		width: 200px;
+		color: #fff;
+		list-style: none;
+		padding: 10px 0px;
+	}
+	.footer-left a{
+		color: #fff;
+		text-decoration: none;
+		font-size: 15px;
+	}
+	.footer-right {
+		width: 50%;
+		height: 50%;
+		position: relative;
+	}
+	.footer-right img{
+		width: 340px;
+		height: 110px;
+		position: relative;
+		padding: 50px 0px;
+		left: 70px;
+		top: 50px;
+	}
+	
+	
+}
