@@ -67,10 +67,7 @@
 		margin-top: 80px;
 		width: 100%;
 		height: 600px;
-		background-image: url('investbg.jpg'); /* Replace with your image URL */
-		background-size: cover; /* Ensures the image covers the entire div */
-		background-position: center; /* Centers the image */
-		background-repeat: no-repeat; /* Prevents tiling */ 
+		background-color:#f1f1f1;
 	}
 	.content-opacity{
 		height: 100%;
