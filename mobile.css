@@ -82,6 +82,7 @@
 		height: 100%;
 		position: relative;
 		padding: 0px 20px;
+		background-color: #f1f1f1;
 	}
 	.container .image{
 		width: 120px;
